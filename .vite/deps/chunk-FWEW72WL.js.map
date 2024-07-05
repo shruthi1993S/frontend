@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../node_modules/react-bootstrap/esm/DropdownDivider.js"],
+  "sourcesContent": ["\"use client\";\n\nimport * as React from 'react';\nimport classNames from 'classnames';\nimport { useBootstrapPrefix } from './ThemeProvider';\nimport { jsx as _jsx } from \"react/jsx-runtime\";\nconst DropdownDivider = /*#__PURE__*/React.forwardRef(({\n  className,\n  bsPrefix,\n  as: Component = 'hr',\n  role = 'separator',\n  ...props\n}, ref) => {\n  bsPrefix = useBootstrapPrefix(bsPrefix, 'dropdown-divider');\n  return /*#__PURE__*/_jsx(Component, {\n    ref: ref,\n    className: classNames(className, bsPrefix),\n    role: role,\n    ...props\n  });\n});\nDropdownDivider.displayName = 'DropdownDivider';\nexport default DropdownDivider;"],
+  "mappings": ";;;;;;;;;;;;;AAEA,YAAuB;AACvB,wBAAuB;AAEvB,yBAA4B;AAC5B,IAAM,kBAAqC,iBAAW,CAAC;AAAA,EACrD;AAAA,EACA;AAAA,EACA,IAAI,YAAY;AAAA,EAChB,OAAO;AAAA,EACP,GAAG;AACL,GAAG,QAAQ;AACT,aAAW,mBAAmB,UAAU,kBAAkB;AAC1D,aAAoB,mBAAAA,KAAK,WAAW;AAAA,IAClC;AAAA,IACA,eAAW,kBAAAC,SAAW,WAAW,QAAQ;AAAA,IACzC;AAAA,IACA,GAAG;AAAA,EACL,CAAC;AACH,CAAC;AACD,gBAAgB,cAAc;AAC9B,IAAO,0BAAQ;",
+  "names": ["_jsx", "classNames"]
+}

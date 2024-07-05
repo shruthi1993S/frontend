@@ -1,0 +1,8 @@
+.navbar_logo {
+  height: 60px;
+}
+.navbar_user {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
